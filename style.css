@@ -202,11 +202,21 @@ input::-moz-focus-inner {
   display: flex;
   border: 10px solid mistyrose;
   height: 100vh;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
+  align-items: flex-start;
 }
-
 .box {
   width: 33.3333%;
+}
+
+.box2 {
+  padding-bottom: 200px;
+}
+
+.box6 {
+  padding-bottom: 0px;
+}
+
+.box9 {
+  padding-bottom: 90px;
+  align-self: stretch;
 }

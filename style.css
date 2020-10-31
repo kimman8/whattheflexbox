@@ -200,23 +200,15 @@ input::-moz-focus-inner {
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
-  border: 10px solid mistyrose;
-  height: 100vh;
-  align-items: flex-start;
 }
 .box {
-  width: 33.3333%;
+  flex: 1;
 }
 
 .box2 {
-  padding-bottom: 200px;
+  flex: 2;
 }
 
-.box6 {
-  padding-bottom: 0px;
-}
-
-.box9 {
-  padding-bottom: 90px;
-  align-self: stretch;
+.box5 {
+  flex: 3;
 }
